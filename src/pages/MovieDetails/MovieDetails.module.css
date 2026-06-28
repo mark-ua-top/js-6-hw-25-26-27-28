@@ -1,0 +1,93 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
+
+.backLink {
+    display: inline-block;
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e94560;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.card {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.image {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1;
+}
+
+.title {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.subtitle {
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.text {
+    color: #d6d6d6;
+}
+
+.extra {
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.extraTitle {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.subList {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.subLink {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #243b67;
+    color: #ffffff;
+}
+
+.active {
+    background-color: #e94560;
+}
+
+.message {
+    padding: 24px;
+    color: #ff6b6b;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+        max-width: 320px;
+    }
+}
